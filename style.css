@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+
+
+body, input, button {
+ font-size: large;
+ font-family: cursive;
+}
+
+button {
+ cursor: pointer;
+}
+.qrbox {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+}
+img {
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 0.5rem;
+    grid-column: 1/ -1;
+}
+textarea {
+    border-radius: 0.5rem;
+    height: 100px;
+    outline: none;
+    padding: 1rem;
+    border: 2px solid;
+    grid-column: 1/-1;
+}
+button {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: coral;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    transition: background-color 0.2s;
+}
+button:hover{
+    background-color: coral;
+
+}
